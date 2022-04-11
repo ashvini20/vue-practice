@@ -9,6 +9,7 @@
       <li><router-link to="/">Home</router-link></li>
       <li><router-link to="/login">Login</router-link></li>
       <li><router-link to="/signup">Signup</router-link></li>
+      <li><router-link to="/counter">Counter</router-link></li>
     </ul>
 
     <router-view></router-view>
@@ -19,13 +20,15 @@ import HelloWorld from './components/HelloWorld.vue'
 import Home from './components/Home.vue'
 import Login from './components/Login.vue'
 import Signup from './components/Signup.vue'
+import TheCounter from './components/TheCounter.vue'
 export default {
   name: 'App',
   components: {
     HelloWorld,
      Home,
     Login,
-    Signup
+    Signup,
+    TheCounter
   }
 }
 </script>
